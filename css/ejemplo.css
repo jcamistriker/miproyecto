@@ -1,0 +1,19 @@
+* {
+	margin: 10px;
+}
+body {
+	background: black;
+	color:#fff;
+}
+
+h1 {
+	font-size: 80px;
+	color:#14E3D4;
+}
+
+p {
+	background:rgba(51,252,255,.3);
+	width:500px;
+	
+}
+

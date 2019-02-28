@@ -1,0 +1,66 @@
+* {
+	margin:0;
+}
+
+.menu {
+	background-color: #282828;
+	color:white;
+	list-style:none; 
+	margin:0px;
+	padding:0px; 
+
+}
+
+body {
+	background:white;
+	color:black;
+	align-content:center;
+
+}
+
+.menu li {
+	margin:0px;
+	display: inline-block;
+}
+
+.menu li a {
+	padding: 15px;
+	display: inline-block;
+	color:white;
+
+}
+
+.menu li a:hover{
+	background: white;
+	color: black;
+
+}
+
+a { 
+	font-size: 20px; 
+	text-decoration: none;
+}
+
+.redes {
+	background-color: #282828;
+	color: white;
+	margin:10px 0px;
+	padding:5px;
+
+}
+
+.copy {
+	background:white;
+	color: black;
+	margin:10px 10px;
+	padding:0px; 
+	
+}
+
+
+.yuta {
+	
+	background: black;
+	width: 200px
+}
+
