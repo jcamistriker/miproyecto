@@ -109,5 +109,23 @@ input[type="submit"]:hover {
 }
 
 .colect {
-	display: inline-block;
+
+}
+
+.colect input {
+	width: 150px;
+
+}
+
+input[type="button"] {
+	margin-bottom: 0px;
+	background: #282828;
+	color: white;
+	border:none;
+}
+
+input[type="button"]:hover {
+	background: #646464;
+	color: white;
+	cursor: pointer;
 }
