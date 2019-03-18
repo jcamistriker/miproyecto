@@ -2,6 +2,10 @@
 	margin:0;
 }
 
+.contenido {
+	width: 100%;
+}
+
 .menu {
 	background-color: #282828;
 	color:white;
