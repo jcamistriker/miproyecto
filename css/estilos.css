@@ -107,3 +107,7 @@ input[type="submit"]:hover {
 	height: 2px;
 	background: #646464;
 }
+
+.colect {
+	display: inline-block;
+}
