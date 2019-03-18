@@ -129,3 +129,7 @@ input[type="button"]:hover {
 	color: white;
 	cursor: pointer;
 }
+
+.tracks {
+	margin: 10px;
+}
