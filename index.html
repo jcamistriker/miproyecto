@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-<link rel="icon" type="image/png" href="logo1.png" sizes="64x64">
+	<meta charset="utf-8">
+	<link rel="icon" type="image/png" href="logo1.png" sizes="64x64">
 
 	<title> HOME</title>
-	<script type="text/javascript" src="animacion.js"></script>
+	<script type="text/javascript" src="js.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<link rel="stylesheet" type="text/css" href="css/slider.css">
+	<link rel="stylesheet" type="text/css" href="css/fontello.css">
 </head>
 <body>
 
@@ -33,27 +34,45 @@
 		</nav>
 	</div>
 
-
 	<div align="center" class="slide">
-		<ul>
-			<li><img src="slideuno.jpg" width="1000px"></li>
-			<li><img src="slidedos.jpg" width="1000px"></li>
-			<li><img src="slidetres.jpg" width="1000px"></li>
-		</ul>
+		<div class="contimg" id="img1">
+			<a href="#img3" class="icon-left-open"></a>
+			<img src="slide/slideuno.jpg">
+			<a href="#img2" class="icon-right-open"></a>
+			<div class="detalles">
+				<h1>NUEVO TRACK</h1>
+				<p>Ya está disponible mi ultimo track, puedes escucharlo presionando el siguiente botón</p>
+				<a target="_blank" title="Youtube" href="https://youtu.be/mv6nIARCVIw"> 
+				<img src="youtube.png"> </a> 
+				
+				<br>		
+			</div>
+		</div>
+
+		<div class="contimg" id="img2">
+			<a href="#img1" class="icon-left-open"></a>
+			<img src="slide/slidedos.jpg">
+			<a href="#img3" class="icon-right-open"></a>
+		</div>
+
+		<div class="contimg" id="img3">
+			<a href="#img2" class="icon-left-open"></a>
+			<img src="slide/slidetres.jpg">
+			<a href="#img1" class="icon-right-open"></a>
+		</div>
 	</div>
 
 
+	<br>
+	<br>
+
+	<div class="separador"></div>
+	<br>
+<div align="center">
 	<h1>Titulo 1</h1>
 	<p>Este es un texto de prueba</p>
 
-  	
-	<button onclick="apretar()"> SALUDAR	</button>
-	<br>
-	<button onmouseover="encima()">BOTON	</button>
-	<br>
-	<button onmouseout="fuera()">APRETAR	</button>
-
-
+</div>
 
 	
 <div align="center" class="redes">
@@ -62,14 +81,14 @@
 	<img src="Facebook.png" width="50px"> </a> 
 	
 
-	<a target="_blank" title="instagram" href="https://www.instagram.com/_soycamilo"> 
+	<a target="_blank" title="instagram" href="https://www.instagram.com/camilogonzalezdj"> 
 	<img src="instagram.png" width="50px"> </a> 
 
 </div>
 	
 	<!-- Cuadro copyrigth -->
 	 <div class="copy"> 	
-		<h2 align="center">Camilo Gonzalez 2019 &copy; Todos los deechos reservados </h2>
+		<h2 align="center">Camilo González 2019 &copy; Todos los deechos reservados </h2>
 	 </div>
 
 </body>
